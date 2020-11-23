@@ -1,0 +1,187 @@
+:root{
+    --accent-color:#2196F3;
+}
+/*------------HEADER--------------*/ 
+.logo{
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+text-decoration: none;    
+}
+.logo-first{
+color: #2196F3;
+
+}
+.logo-second{
+color: #000000;
+}
+.nav{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+           
+}
+.nav-list{
+    color: #212121; 
+}
+.nav-list-studio, .nav-list-portfolio, .nav-list-contacts{
+    text-decoration: none;
+}
+.nav-list-studio:hover, .nav-list-studio:focus, 
+.nav-list-portfolio:hover, .nav-list-portfolio:focus, 
+.nav-list-contacts:hover, .nav-list-contacts:focus {
+    color: var(--accent-color);
+}
+.mail, .tel {
+    color: #757575;
+}
+.mail:hover, .mail:focus, .tel:hover, .tel:focus{
+    color:var(--accent-color);
+}
+.tel{
+    text-decoration: none;
+}
+/*-------------END HEADER----------------*/
+
+/*-------------HERO----------------*/
+.hero-title{
+    font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,364;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/*color: #FFFFFF;*/
+}
+.hero-btn{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/*color: #FFFFFF;*/
+}
+/*--------------END HERO--------------*/
+
+/*--------------ADVANTAGES-------------*/
+.advantages-title{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height:1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantages-discription{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*---------------END AVANTAGES--------------*/
+
+/*---------------WE MADE--------------------*/
+
+
+.we_made-title, .our_team-tilte, .constant-clients{
+font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*----------------END WE MADE----------------*/
+
+/*---------------OUR TEAM--------------------*/
+
+.our_team-item-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our_team-item-position{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*-----------------END OUR TEAM---------------*/
+
+/*-----------------FOOTER---------------------*/
+
+.adress-gorod{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px1.714;
+letter-spacing: 0.03em;
+/*color: #FFFFFF;*/
+}
+/*------------------END FOOTER-----------------*/
+
+/*------------------PORTFOLIO------------------*/
+
+.btn-item{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.examples-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.example-description{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
