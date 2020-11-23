@@ -37,19 +37,19 @@ letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 .mail, .tel {
+    text-decoration: none;
     color: #757575;
 }
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
     color:var(--accent-color);
 }
-.tel{
-    text-decoration: none;
+
 }
 /*-------------END HEADER----------------*/
 
 /*-------------HERO----------------*/
 .hero-title{
-    font-family: Roboto;
+font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,364;
@@ -91,7 +91,7 @@ letter-spacing: 0.06em;
     color: #212121;
 }
 .advantages-discription{
-    font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
