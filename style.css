@@ -1,6 +1,6 @@
 :root{
     --accent-color:#2196F3;
-    --roboto-font: font-family: Roboto, sans-serif;
+    --roboto-font: Roboto, sans-serif;
     --raleway-font: Raleway, sans-serif;
     --titles-color: #212121;
     --items-color: #757575;
@@ -35,6 +35,7 @@ letter-spacing: 0.02em;
 }
 .nav-list, .contacts, .advantages-list, .we_made_job-list, .our-team-list, .btn-list, .examples-list {
 list-style: none;
+
 }
 .nav-list-studio, .nav-list-portfolio, .nav-list-contacts{
     text-decoration: none;
@@ -47,6 +48,7 @@ list-style: none;
 .mail, .tel {
     text-decoration: none;
     color: var(--items-color);
+    font-style: normal;
 }
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
     color:var(--accent-color);
@@ -164,7 +166,7 @@ letter-spacing: 0.03em;
 
 /*------------------PORTFOLIO------------------*/
 
-.btn-item{
+.btn-list{
 font-family: var(--roboto-font);
 font-style: normal;
 font-weight: 500;
@@ -173,9 +175,9 @@ line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--titles-color);
-
-
 }
+
+
 .examples-title{
     font-family: var(--roboto-font);
 font-style: normal;
